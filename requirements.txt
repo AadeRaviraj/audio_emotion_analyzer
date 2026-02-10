@@ -3,3 +3,4 @@ transformers
 torch 
 librosa
 gunicorn
+faster-whisper
