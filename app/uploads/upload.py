@@ -1,8 +1,8 @@
 from flask import Flask,request,redirect,jsonify, Blueprint,send_file
 import io  
-from audio_processing.audio_splitter import split_audio
-import speech_to_text.speech_converter as SC
-from emotion_analysis.emotion_detector import detect_emotion,detect_voice_emotion
+from ..audio_processing.audio_splitter import split_audio
+from ..speech_to_text import speech_converter as SC
+from ..emotion_analysis.emotion_detector import detect_emotion,detect_voice_emotion
 import mimetypes
 
 # import librosa
