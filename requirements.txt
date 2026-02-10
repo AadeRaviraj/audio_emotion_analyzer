@@ -1,6 +1,6 @@
 flask
 transformers
-torch 
+torch
 librosa
 gunicorn
-faster-whisper
+faster-whisper==1.1.2
