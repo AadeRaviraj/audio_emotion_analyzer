@@ -5,7 +5,7 @@ model = fw.WhisperModel(
     "tiny.en",
     device="cpu",
     compute_type="int8",
-    cpu_threads=4
+    cpu_threads=1
 )
 
 def chunk_script(audio_chunk, sr=16000):
