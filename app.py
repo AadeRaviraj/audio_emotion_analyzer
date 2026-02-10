@@ -17,6 +17,5 @@ app.register_blueprint(upload_bp)
 def home():
     return render_template("index.html")
 
-if __name__ == "__main__":
-    print("Inside app ")
+if __name__ == "__main__": 
     app.run(debug=True)
