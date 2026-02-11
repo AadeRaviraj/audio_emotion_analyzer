@@ -14,8 +14,7 @@ upload_bp = Blueprint("upload_bp", __name__)
 audio_storage = {}
 
 @upload_bp.route("/upload", methods=["POST"])
-def upload(): 
-    print("Data is coming ")
+def upload():  
     if "audio_file" not in request.files:
             return "No file in request file"
         
@@ -28,8 +27,7 @@ def upload():
         return jsonify({"error": "Uploaded file is not a supported audio file"})
 
 
-    try :  
-        print("inside try")
+    try :   
         # Read the file bytes
         audio_bytes = file.read()
         # print(audio_bytes)
