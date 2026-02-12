@@ -1,5 +1,4 @@
 flask
-streamlit>=1.25
 transformers>=4.35
 torch>=2.1
 librosa
