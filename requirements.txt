@@ -4,3 +4,4 @@ torch
 librosa
 gunicorn
 faster-whisper==1.2.1 
+streamlit
