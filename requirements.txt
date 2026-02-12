@@ -2,12 +2,6 @@ flask
 streamlit>=1.25
 transformers>=4.35
 torch>=2.1
-librosa==0.11.0
-numba==0.53.1
-llvmlite==0.36.0
+librosa
 faster-whisper==1.2.1
 gunicorn
-pygments==2.19.2
-rich==14.3.2
-markdown-it-py==4.0.0
-mdurl==0.1.2
